@@ -1,0 +1,1326 @@
+@media only screen and (min-width:1051px){
+	
+
+}
+
+
+@media only screen and (min-width:960px) and (max-width:1149px){
+.wrapper{
+	width: auto;
+	padding:0 10px; 
+	}
+#header .navMenu ul li a {
+    padding: 14px 16px !important;
+	}
+.latest_deals li:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(4, 230, 163, 0.55);
+    height: 215px;
+    width: 215px;
+	}
+.latest_deals li:first-child:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(2n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 89, 37, 0.55);
+	}
+.latest_deals li:nth-child(3n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(110, 198, 25, 0.55);
+	}
+.latest_deals li:nth-child(4n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(5n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 140, 22, 0.55);
+	}
+.latest_deals li:nth-child(6n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(29, 49, 202, 0.55);
+	}
+.latest_deals li:nth-child(7n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(11n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(13n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(17n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.dealDet p {
+    float: none;
+	}
+.schlTourBtn {
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	}
+.latest_deals h4 {
+    padding: 9px 15px 0;
+    text-align: center;
+	}
+.scheduleFrmBox {
+    padding: 30px 20px;
+	}
+.ftConatctBox {
+    width: 27%;
+	}
+.ftQCKLinks {
+    width: 26%;
+	}
+
+
+/************ About us page **********/
+.aboutPg img {
+    height: auto;
+    width: 100%;
+	}
+
+
+/************ Contact us page **********/
+.contactDet li {
+    margin: 0 37px 0 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (min-width:769px) and (max-width:959px){
+.wrapper{
+	width: auto;
+	padding:0 10px; 
+	}
+#header .navMenu ul li a {
+    padding: 14px 16px !important;
+	}
+.latest_deals li:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(4, 230, 163, 0.55);
+    height: 215px;
+    width: 215px;
+	}
+.latest_deals li:first-child:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(2n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 89, 37, 0.55);
+	}
+.latest_deals li:nth-child(3n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(110, 198, 25, 0.55);
+	}
+.latest_deals li:nth-child(4n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(5n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 140, 22, 0.55);
+	}
+.latest_deals li:nth-child(6n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(29, 49, 202, 0.55);
+	}
+.latest_deals li:nth-child(7n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(11n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(13n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(17n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.dealDet p {
+    float: none;
+	}
+.schlTourBtn {
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	}
+.latest_deals h4 {
+    padding: 9px 15px 0;
+    text-align: center;
+	}
+.scheduleFrmBox {
+    padding: 30px 20px;
+	}
+.ftConatctBox {
+    width: 27%;
+	}
+.ftQCKLinks {
+    width: 26%;
+	}
+.mean-nav {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 250px !important;
+	}	
+.latest_deals {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 0;
+    width: 730px;
+	}
+.latest_deals li {
+    margin: 0 4% 4% 0;
+    width: 48%;
+	}		
+.latest_deals li:nth-child(3n) {
+    margin-right: 4%;
+	}
+.latest_deals li:nth-child(2n) {
+    margin-right: 0;
+	}	
+.camera_wrap {
+    height: 370px !important;
+	}	
+.caption h1 {
+    font-size: 24px;
+	}	
+	
+	
+	
+/************ About us page **********/
+.aboutPg img {
+    height: auto;
+    width: 100%;
+	}
+.innerPgBn img {
+    margin: 0 0 0 -750px;
+    width: 1500px;
+	}
+
+
+
+/************ Contact us page **********/
+.contactDet li {
+    box-sizing: border-box;
+    margin: 0 5% 6px 0;
+    text-align: left;
+    width: 45%;
+	}
+	
+	
+/************ Preview Location page **********/
+.prevLoc li:last-child {
+    display: table;
+    float: none;
+    margin: 0 auto;
+	}
+	
+
+
+}
+@media only screen and (min-width:641px) and (max-width:768px){
+.wrapper{
+	width: auto;
+	padding:0 10px; 
+	}
+#header .navMenu ul li a {
+    padding: 14px 16px !important;
+	}
+.latest_deals li:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(4, 230, 163, 0.55);
+    height: 215px;
+    width: 215px;
+	}
+.latest_deals li:first-child:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(2n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 89, 37, 0.55);
+	}
+.latest_deals li:nth-child(3n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(110, 198, 25, 0.55);
+	}
+.latest_deals li:nth-child(4n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(5n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 140, 22, 0.55);
+	}
+.latest_deals li:nth-child(6n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(29, 49, 202, 0.55);
+	}
+.latest_deals li:nth-child(7n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(11n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(13n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(17n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.dealDet p {
+    float: none;
+	}
+.schlTourBtn {
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	}
+.latest_deals h4 {
+    padding: 9px 15px 0;
+    text-align: center;
+	}
+.scheduleFrmBox {
+    float: none;
+    padding: 30px 20px;
+    width: auto;
+	}
+.ftConatctBox {
+    width: 27%;
+	}
+.ftQCKLinks {
+    width: 26%;
+	}
+.mean-nav {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 250px !important;
+	}	
+.latest_deals {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 0;
+    width: 610px;
+	}
+.latest_deals li {
+    margin: 0 2% 4% 0;
+    width: 49%;
+	}		
+.latest_deals li:nth-child(3n) {
+    margin-right: 2%;
+	}
+.latest_deals li:nth-child(2n) {
+    margin-right: 0;
+	}	
+.camera_wrap {
+    height: 320px !important;
+	}	
+.caption h1 {
+    font-size: 24px;
+	}	
+.scheduleFrm_sec_bn {
+    display: none;
+	}
+.copyright {
+    padding: 15px 0;
+	}
+.footerLinks li {
+    display: block;
+    float: none;
+    margin-right: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+	}
+.footerLinks li:last-child {
+	margin-bottom: 0px;
+	}	
+.ftQCKLinks li {
+    display: inline-block;
+    float: left;
+    margin: 0 3% 0 0;
+    width: 30%;
+	}
+.ftQCKLinks ul:after, .ft_socials:after{
+	content:'';
+	clear:both;
+    display: block;
+	}
+.ftLinks {
+    padding: 40px 0 30px;
+	}
+.ft_socials li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: auto;
+	}
+.ft_socials {
+    padding: 0px 0 0;
+	}
+
+
+
+
+/************ About us page **********/
+.aboutPg img {
+    height: auto;
+    width: 100%;
+	}
+.innerPgBn img {
+    margin: 0 0 0 -750px;
+    width: 1500px;
+	}
+
+
+/************ Schedule page **********/
+.schdlPg .scheduleFrmBox {
+    padding: 38px 10px;
+	}
+
+
+
+
+/************ Contact us page **********/
+.contactDet li {
+    box-sizing: border-box;
+    margin: 0 5% 6px 0;
+    text-align: left;
+    width: 45%;
+	}
+
+
+/************ Deal Details page **********/
+.destiDep {
+    border-right: medium none;
+    float: none;
+    margin-right: 0;
+    padding-right: 0;
+    width: auto;
+	}
+.offerBox {
+    float: none;
+    margin: 40px 0 0;
+    width: auto;
+	}
+.exploreResort li {
+    display: block;
+    float: none;
+    font-size: 17px;
+    margin: 0 0 28px;
+    width: auto;
+	}	
+.pgTitleBar h2 {
+    font-size: 30px;
+	}	
+	
+	
+	
+/************ Preview Location page **********/
+.prevLoc li:last-child {
+    display: table;
+    float: none;
+    margin: 0 auto;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}
+@media only screen and (min-width:481px) and (max-width:640px){
+.wrapper{
+	width: auto;
+	padding:0 10px; 
+	}
+#header .navMenu ul li a {
+    padding: 14px 16px !important;
+	}
+.latest_deals li:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(4, 230, 163, 0.55);
+    height: 215px;
+    width: 215px;
+	}
+.latest_deals li:first-child:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(2n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 89, 37, 0.55);
+	}
+.latest_deals li:nth-child(3n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(110, 198, 25, 0.55);
+	}
+.latest_deals li:nth-child(4n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(5n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 140, 22, 0.55);
+	}
+.latest_deals li:nth-child(6n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(29, 49, 202, 0.55);
+	}
+.latest_deals li:nth-child(7n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(11n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(13n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(17n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.dealDet p {
+    float: none;
+	}
+.schlTourBtn {
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	}
+.latest_deals h4 {
+    padding: 9px 15px 0;
+    text-align: center;
+	}
+.scheduleFrmBox {
+    float: none;
+    padding: 30px 20px;
+    width: auto;
+	}
+.ftConatctBox {
+    width: 27%;
+	}
+.ftQCKLinks {
+    width: 26%;
+	}
+.mean-nav {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 250px !important;
+	}	
+.latest_deals {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 0;
+    width: 400px;
+	}
+.latest_deals li {
+    display: block;
+    float: none;
+    margin: 0 0 30px;
+    width: auto;
+	}		
+.latest_deals li:nth-child(3n) {
+    margin-right: 2%;
+	}
+.latest_deals li:nth-child(2n) {
+    margin-right: 0;
+	}	
+.camera_wrap {
+    height: 240px !important;
+	}	
+.caption h1 {
+    font-size: 19px;
+	}	
+.scheduleFrm_sec_bn {
+    display: none;
+	}
+.copyright {
+    padding: 7px 0;
+	}
+.copyright p {
+    font-size: 13px;
+	}	
+.footerLinks li {
+    display: block;
+    float: none;
+    margin-right: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+	}
+.footerLinks li:last-child {
+	margin-bottom: 0px;
+	}	
+.ftQCKLinks li {
+    display: inline-block;
+    float: left;
+    margin: 0 5% 0 0;
+    width: 47.5%;
+	}
+.ftQCKLinks li:nth-child(2n){
+	margin-right:0;
+	}	
+.ftQCKLinks ul:after, .ft_socials:after{
+	content:'';
+	clear:both;
+    display: block;
+	}
+.ftLinks {
+    padding: 40px 0 30px;
+	}
+.ft_socials li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: auto;
+	}
+.ft_socials {
+    padding: 0px 0 0;
+	}
+
+
+
+/************ About us page **********/
+.aboutPg img {
+    height: auto;
+    width: 100%;
+	}
+.innerPgBn img {
+    margin: 0 0 0 -500px;
+    width: 1000px;
+	}
+
+
+
+/************ Schedule page **********/
+.schdlPg .scheduleFrmBox {
+    padding: 38px 10px;
+	}
+
+
+
+/************ Contact us page **********/
+.contactDet li {
+    box-sizing: border-box;
+    display: table;
+    float: none;
+    margin: 0 auto 6px;
+    text-align: left;
+    width: auto;
+	}
+
+
+
+/************ Deal Details page **********/
+.destiDep {
+    border-right: medium none;
+    float: none;
+    margin-right: 0;
+    padding-right: 0;
+    width: auto;
+	}
+.offerBox {
+    float: none;
+    margin: 40px 0 0;
+    width: auto;
+	}
+.exploreResort li {
+    display: block;
+    float: none;
+    font-size: 17px;
+    margin: 0 0 28px;
+    width: auto;
+	}	
+.pgTitleBar h2 {
+    font-size: 22px;
+    line-height: 50px;
+	}	
+.resortDet .rateBox h5 {
+    font-size: 24px;
+	}	
+.resortDet .rateBox h5 span {
+    font-size: 50px;
+	}
+.resortDet .rateBox {
+    height: 200px;
+    padding: 60px 32px;
+    width: 200px;
+	}
+.resortDet .currencySign {
+    font-size: 35px !important;
+	}
+.back2Deal {
+    background-position: 0 center;
+    font-size: 17px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 17px 0 49px;
+	}
+.desti_sec h3 {
+    font-size: 32px;
+    margin-bottom: 0;
+	}
+
+
+
+
+
+
+
+
+	
+}
+@media only screen and (min-width:321px) and (max-width:480px){
+.wrapper{
+	width: auto;
+	padding:0 10px; 
+	}
+#header .navMenu ul li a {
+    padding: 14px 16px !important;
+	}
+.latest_deals li:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(4, 230, 163, 0.55);
+    height: 215px;
+    width: 215px;
+	}
+.latest_deals li:first-child:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(2n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 89, 37, 0.55);
+	}
+.latest_deals li:nth-child(3n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(110, 198, 25, 0.55);
+	}
+.latest_deals li:nth-child(4n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(5n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 140, 22, 0.55);
+	}
+.latest_deals li:nth-child(6n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(29, 49, 202, 0.55);
+	}
+.latest_deals li:nth-child(7n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(11n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(13n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(17n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.dealDet p {
+    float: none;
+	}
+.schlTourBtn {
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	}
+.latest_deals h4 {
+    padding: 9px 15px 0;
+    text-align: center;
+	}
+.scheduleFrmBox {
+    float: none;
+    padding: 30px 10px;
+    width: auto;
+	}
+.ftConatctBox {
+    width: 27%;
+	}
+.ftQCKLinks {
+    width: 26%;
+	}
+.mean-nav {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 250px !important;
+	}	
+.latest_deals {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 0;
+    width: auto;
+	}
+.latest_deals li {
+    display: block;
+    float: none;
+    margin: 0 0 30px;
+    width: auto;
+	}		
+.latest_deals li:nth-child(3n) {
+    margin-right: 2%;
+	}
+.latest_deals li:nth-child(2n) {
+    margin-right: 0;
+	}	
+.camera_wrap {
+    height: 240px !important;
+	}	
+.caption h1 {
+    font-size: 17px;
+	}
+.caption p {
+    font-size: 14px;
+	}		
+.scheduleFrm_sec_bn {
+    display: none;
+	}
+.copyright {
+    padding: 7px 0;
+	}
+.copyright p {
+    font-size: 13px;
+	}	
+.footerLinks li {
+    display: block;
+    float: none;
+    margin-right: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+	}
+.footerLinks li:last-child {
+	margin-bottom: 0px;
+	}	
+.ftQCKLinks li {
+    display: inline-block;
+    float: left;
+    margin: 0 5% 0 0;
+    width: 47.5%;
+	}
+.ftQCKLinks li:nth-child(2n){
+	margin-right:0;
+	}	
+.ftQCKLinks ul:after, .ft_socials:after{
+	content:'';
+	clear:both;
+    display: block;
+	}
+.ftLinks {
+    padding: 40px 0 30px;
+	}
+.ft_socials li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: auto;
+	}
+.ft_socials {
+    padding: 0px 0 0;
+	}
+.logo {
+    display: table;
+    float: none;
+    margin: 0 auto 20px;
+	}
+.top_linksBox {
+    display: table;
+    float: none;
+    margin: 0 auto;
+	}
+.content h3 {
+    font-size: 32px;
+    padding: 0 0 10px;
+	}
+.latest_deal_sec p {
+    font-size: 15px;
+    line-height: 24px;
+	}
+.rateBox p {
+    font-size: 14px;
+    line-height: 19px;
+	}
+.col2_L {
+    float: none;
+    margin-bottom: 10px;
+    width: 100%;
+	}
+.col2_R {
+    float: none;
+    width: 100%;
+	}
+.col3 {
+    float: none;
+    margin-bottom: 10px;
+    width: 100%;
+	}
+.col3 .lastCol{
+	margin-bottom: 0px;
+	}
+
+
+/************ About us page **********/
+.aboutPg img {
+    height: auto;
+    width: 100%;
+	}
+.innerPgBn img {
+    margin: 0 0 0 -300px;
+    width: 600px;
+	}
+.aboutPg .pgSec h4 {
+    font-size: 22px;
+    padding: 0 0 14px;
+	}
+
+/************ Terms page **********/
+.pgSec li {
+    background-position:0 5px;
+    font-size: 17px;
+    line-height: 27px;
+	}
+
+
+
+/************ Schedule page **********/
+.schdlPg .scheduleFrmBox {
+    padding: 38px 10px;
+	}
+
+
+/************ Contact us page **********/
+.contactDet li {
+     box-sizing: border-box;
+    float: none;
+    margin: 0 0 6px;
+    text-align: left;
+	}
+.contactDet h5 {
+    background-position:  0 8px;
+    margin: 0;
+    text-align: left;
+	}
+.contactDet h4 {
+    text-align: left;
+	}
+
+
+/************ Deal Details page **********/
+.destiDep {
+    border-right: medium none;
+    float: none;
+    margin-right: 0;
+    padding-right: 0;
+    width: auto;
+	}
+.offerBox {
+    float: none;
+    margin: 40px 0 0;
+    width: auto;
+	}
+.exploreResort li {
+    display: block;
+    float: none;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0 0 23px;
+    padding: 0 0 0 36px;
+    width: auto;
+	}	
+.pgTitleBar h2 {
+    float: none;
+    font-size: 22px;
+    line-height: 50px;
+    overflow: visible;
+    text-align: center;
+    text-overflow: unset;
+    white-space: unset;
+    width: 100%;
+	}	
+.resortDet .rateBox h5 {
+    font-size: 24px;
+	}	
+.resortDet .rateBox h5 span {
+    font-size: 50px;
+	}
+.resortDet .rateBox {
+    height: 200px;
+    padding: 60px 32px;
+    width: 200px;
+	}
+.resortDet .currencySign {
+    font-size: 35px !important;
+	}
+.back2Deal {
+	display:none;
+    /*background-position: 0 center;
+    font-size: 17px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 17px 0 49px;*/
+	}
+.desti_sec h3 {
+    font-size: 26px;
+    margin-bottom: 0;
+	}
+.offerBox h4 {
+    font-size: 24px;
+    padding: 0 0 10px;
+	}
+.offerBox li h5 {
+    font-size: 20px;
+	}
+.exploreResort h5 {
+    font-size: 24px;
+    padding: 0 0 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+	
+
+}
+@media only screen and (max-width:320px){
+.wrapper{
+	width: auto;
+	padding:0 10px; 
+	}
+#header .navMenu ul li a {
+    padding: 14px 16px !important;
+	}
+.latest_deals li:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(4, 230, 163, 0.55);
+    height: 140px;
+    padding: 45px 24px;
+    width: 140px;
+	}
+.latest_deals li:first-child:hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(2n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 89, 37, 0.55);
+	}
+.latest_deals li:nth-child(3n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(110, 198, 25, 0.55);
+	}
+.latest_deals li:nth-child(4n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(5n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(223, 140, 22, 0.55);
+	}
+.latest_deals li:nth-child(6n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(29, 49, 202, 0.55);
+	}
+.latest_deals li:nth-child(7n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(11n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.latest_deals li:nth-child(13n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(240, 0, 255, 0.55);
+	}
+.latest_deals li:nth-child(17n):hover .rateBox {
+    box-shadow: 0 0 0 10px rgba(234, 75, 75, 0.55);
+	}
+.dealDet p {
+    float: none;
+	}
+.schlTourBtn {
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	}
+.latest_deals h4 {
+    font-size: 20px;
+    padding: 9px 15px 0;
+    text-align: center;
+	}
+.scheduleFrmBox {
+    float: none;
+    padding: 30px 10px;
+    width: auto;
+	}
+.ftConatctBox {
+    width: 27%;
+	}
+.ftQCKLinks {
+    width: 26%;
+	}
+.mean-nav {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 205px !important;
+	}	
+.mean-container .mean-nav ul li a {
+    font-size: 14px !important;
+	}	
+.latest_deals {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 0;
+    width: auto;
+	}
+.latest_deals li {
+    display: block;
+    float: none;
+    margin: 0 0 30px;
+    width: auto;
+	}		
+.latest_deals li:nth-child(3n) {
+    margin-right: 2%;
+	}
+.latest_deals li:nth-child(2n) {
+    margin-right: 0;
+	}	
+.camera_wrap {
+    height: 200px !important;
+	}	
+.caption h1 {
+    font-size: 17px;
+	}
+.caption p {
+    font-size: 14px;
+	}		
+.scheduleFrm_sec_bn {
+    display: none;
+	}
+.copyright {
+    padding: 7px 0;
+	}
+.copyright p {
+    font-size: 13px;
+	}	
+.footerLinks li {
+    display: block;
+    float: none;
+    margin-right: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+	}
+.footerLinks li:last-child {
+	margin-bottom: 0px;
+	}	
+.ftQCKLinks li {
+    display: block;
+    float: none;
+    margin: 0;
+    width: auto;
+	}
+.ftQCKLinks li:nth-child(2n){
+	margin-right:0;
+	}	
+.ftQCKLinks ul:after, .ft_socials:after{
+	content:'';
+	clear:both;
+    display: block;
+	}
+.ftLinks {
+    padding: 40px 0 30px;
+	}
+.ft_socials li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: auto;
+	}
+.ft_socials {
+    padding: 0px 0 0;
+	}
+.logo {
+    display: table;
+    float: none;
+    margin: 0 auto 20px;
+	}
+.top_linksBox {
+    display: table;
+    float: none;
+    margin: 0 auto;
+	}
+.content h3 {
+    font-size: 32px;
+    padding: 0 0 10px;
+	}
+.latest_deal_sec p {
+    font-size: 15px;
+    line-height: 24px;
+	}
+.rateBox p {
+    font-size: 14px;
+    line-height: 19px;
+	}
+.col2_L {
+    float: none;
+    margin-bottom: 10px;
+    width: 100%;
+	}
+.col2_R {
+    float: none;
+    width: 100%;
+	}
+.col3 {
+    float: none;
+    margin-bottom: 10px;
+    width: 100%;
+	}
+.col3 .lastCol{
+	margin-bottom: 0px;
+	}
+.latest_deals li:hover .rateBox p {
+    display: none;
+	}
+.rateBox h5 span {
+    font-size: 32px;
+    font-weight: 700;
+	}
+.rateBox {
+    height: 140px;
+    padding: 45px 24px;
+    width: 140px;
+	}	
+.ft_socials li a {
+    height: 39px;
+    width: 39px;
+	}
+.moreDeals {
+    font-size: 14px;
+    line-height: 38px;
+    margin: 10px auto 5px;
+    padding: 0 23px;
+	}
+p {
+    font-size: 14px;
+    line-height: 25px;
+	}
+.ftAboutBox p {
+    font-size: 14px;
+    line-height: 25px;
+	}
+
+
+
+/************ About us page **********/
+.aboutPg img {
+    height: auto;
+    width: 100%;
+	}
+.innerPgBn img {
+    margin: 0 0 0 -300px;
+    width: 600px;
+	}
+.aboutPg .pgSec h4 {
+    font-size: 20px;
+    padding: 0 0 14px;
+	}
+.pgSec p {
+    font-size: 14px;
+    line-height: 25px;
+	}
+
+
+/************ Terms  page **********/
+.pgSec li {
+    background-position:0 5px;
+	font-size: 16px;
+    line-height: 27px;
+    margin: 0 6% 10px 0;
+    padding: 0 0 0 34px;
+	}
+			
+
+
+/************ Schedule page **********/
+.schdlPg .scheduleFrmBox {
+    padding: 38px 0px;
+	}
+
+
+
+/************ Deal Details page **********/
+.destiDep {
+    border-right: medium none;
+    float: none;
+    margin-right: 0;
+    padding-right: 0;
+    width: auto;
+	}
+.offerBox {
+    float: none;
+    margin: 40px 0 0;
+    width: auto;
+	}
+.exploreResort li {
+    display: block;
+    float: none;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0 0 23px;
+    padding: 0 0 0 36px;
+    width: auto;
+	}	
+.pgTitleBar h2 {
+    float: none;
+    font-size: 22px;
+    line-height: 50px;
+    overflow: visible;
+    text-align: center;
+    text-overflow: unset;
+    white-space: unset;
+    width: 100%;
+	}	
+.resortDet .rateBox h5 {
+    font-size: 24px;
+	}	
+.resortDet .rateBox h5 span {
+    font-size: 50px;
+	}
+.resortDet .rateBox {
+    height: 200px;
+    padding: 60px 32px;
+    width: 200px;
+	}
+.resortDet .currencySign {
+    font-size: 35px !important;
+	}
+.back2Deal {
+	display:none;
+    /*background-position: 0 center;
+    font-size: 17px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 17px 0 49px;*/
+	}
+.desti_sec h3 {
+    font-size: 26px;
+    margin-bottom: 0;
+	}
+.offerBox h4 {
+    font-size: 24px;
+    padding: 0 0 10px;
+	}
+.offerBox li h5 {
+    font-size: 20px;
+	}
+.exploreResort h5 {
+    font-size: 24px;
+    padding: 0 0 20px;
+	}
+
+
+
+
+
+
+
+					
+}
+
+
+
+

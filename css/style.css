@@ -1,0 +1,1500 @@
+
+::-moz-selection {
+	background:rgba(0,0,0,0);
+	}
+::selection { 
+	background:rgba(0,0,0,0);
+	} 	
+	
+body{ 
+  	margin:0; 
+ 	padding:0; 
+ 	font-family:Roboto;
+ }
+*{margin:0; padding:0;}
+img,a{ border:none; outline:none;}
+a{ text-decoration:none;}
+ul,li{ list-style:none;}
+input, textarea, select{
+	outline:none;
+	}
+h1{ font-size:52px;}
+h2{ font-size:34px;}
+
+p{ 
+	font-family: Roboto;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 27px;
+    padding: 0 0px 15px 0;
+	}
+
+.alignleft{
+	float:left;
+	margin:0 10px 15px 0;
+	}
+.alignright{
+	float:right;
+	margin:0 0px 15px 10px;
+	}
+.aligncenter{
+	display:block;
+	margin:15px auto;
+	}
+
+.clear{ clear:both; width:100%; height:auto;}
+.spacer10{ height:10px;}
+.spacer15{ height:15px;}
+.spacer20{ height:20px;}
+.spacer25{ height:25px;}
+.spacer30{ height:30px;}     
+.spacer40{ height:40px;}
+
+
+
+.wrapper{ 
+	width:1150px;
+	margin:0px auto;
+	position:relative;
+	}
+.wrapper:after, .topBar:after{
+	clear:both;
+	display: block; 
+	content:'';
+	}
+/***************************
+	Header css start
+*****************************/
+.top_bar {
+    padding: 20px 0;
+	}
+.logo {
+    float: left;
+	}
+.logo img {
+    padding: 6px 0 0;
+    vertical-align: middle;
+	}
+.top_linksBox {
+    float: right;
+	}
+.top_socials {
+    float: right;
+	}
+.top_socials li {
+    float: left;
+    margin: 0;
+	}
+.top_socials li a {
+    display: inline-block;
+	}
+.top_socials li img {
+	vertical-align:bottom;
+	}
+	
+.headTop{
+    padding: 0;
+    width: 100%;
+	background:#155a90;
+	}
+
+
+
+
+/*************************
+	Banner css
+*******************************/
+.banner {
+	position:relative;
+	}
+.captionBox{
+	background: rgba(19, 68, 106, 0.6) none repeat scroll 0 0;
+	bottom: 0;
+    left: 0;
+	position: absolute;
+    right: 0;
+	width: 100%;
+	}	
+.caption {
+    margin: 0;
+    padding: 18px 0 10px;
+    text-align: center;
+	}
+.caption h1 {
+	font-family: Salsa;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 0;
+    text-align: center;
+	color:#fff;
+	}
+.caption p{
+	padding:0;
+	font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Overlock;
+	}
+
+	
+	
+
+
+
+
+
+	
+.content h3 {
+    color: #155a90;
+    font-family: Overlock;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0 0 26px;
+    text-align: center;
+	}
+.content h3 span {
+	color: #929191;
+	font-weight:400;
+	}
+	
+/********* Services section *********/	
+.latest_deal_sec {
+     padding: 41px 0;
+	}
+.latest_deal_sec p {
+    color: #6c6c6c;
+    font-weight: 400;
+    text-align: center;
+	}	
+.latest_deal_sec h3{
+	}
+.latest_deals {
+    padding: 25px 0 0;
+	}
+.latest_deals::after {
+    clear: both;
+    content: "";
+    display: block;
+	}		
+.latest_deals li{
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin: 0 4% 4% 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    vertical-align: top;
+    width: 30.6%;
+	}
+.latest_deals li:nth-child(3n){
+	margin-right:0;
+	}
+.dealThumbnailBox{
+	position:relative;
+	}	
+.dealThumb::after {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 250ms ease 0s;
+    width: 100%;
+	}	
+.latest_deals li:hover .dealThumb::after {
+	opacity: 1;
+	}	
+.dealThumb img{
+	height: auto;
+    width: 100%;
+    vertical-align: bottom;
+	}	
+.rateBox{
+	background:rgba(4,230,163, 0.55) none repeat scroll 0 0;
+	border-radius: 100px 0 100px 100px;
+    box-sizing: border-box;
+    height: 170px;
+    margin: -36px 0 0 0;
+    padding: 61px 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 170px;
+	box-shadow: 0 0 0 8px rgba(0,0,0, 0.2);
+	transition:all 250ms ease 0s;
+	}
+.latest_deals li:hover .rateBox {
+    border-radius:122px 0 119px 103px;
+    height: 235px;
+    padding: 57px 34px 43px 47px;
+    width: 235px;
+	box-shadow: 0 0 0 18px rgba(4,230,163,0.55);
+	background:rgba(4,230,163,1) none repeat scroll 0 0;
+	}	
+.latest_deals li:first-child .rateBox{
+	background:rgba(234,75,75,0.55);
+	}
+.latest_deals li:nth-child(2n) .rateBox{
+	background:rgba(223,89,37,0.55);
+	}
+.latest_deals li:nth-child(3n) .rateBox{
+	background:rgba(110,198,25,0.55);
+	}
+.latest_deals li:nth-child(4n) .rateBox{
+	background:rgba(240,0,255,0.55);
+	}
+.latest_deals li:nth-child(5n) .rateBox{
+	background:rgba(223,140,22,0.55);
+	}
+.latest_deals li:nth-child(6n) .rateBox{
+	background:rgba(29,49,202,0.55);
+	}
+.latest_deals li:nth-child(7n) .rateBox{
+	background:rgba(234,75,75,0.55);
+	}
+.latest_deals li:nth-child(11n) .rateBox{
+	background:rgba(234,75,75,0.55);
+	}
+.latest_deals li:nth-child(13n) .rateBox{
+	background:rgba(240,0,255,0.55);
+	}
+.latest_deals li:nth-child(17n) .rateBox{
+	background:rgba(234,75,75,0.55);
+	}
+
+
+.latest_deals li:first-child:hover .rateBox{
+	background:rgba(234,75,75,1);
+	box-shadow: 0 0 0 18px rgba(234,75,75,0.55);
+	}
+.latest_deals li:nth-child(2n):hover .rateBox{
+	background:rgba(223,89,37,1);
+	box-shadow: 0 0 0 18px rgba(223,89,37,0.55);
+	}
+.latest_deals li:nth-child(3n):hover .rateBox{
+	background:rgba(110,198,25,1);
+	box-shadow: 0 0 0 18px rgba(110,198,25,0.55);
+	}
+.latest_deals li:nth-child(4n):hover .rateBox{
+	background:rgba(240,0,255,1);
+	box-shadow: 0 0 0 18px rgba(240,0,255,0.55);
+	}
+.latest_deals li:nth-child(5n):hover .rateBox{
+	background:rgba(223,140,22,1);
+	box-shadow: 0 0 0 18px rgba(223,140,22,0.55);
+	}
+.latest_deals li:nth-child(6n):hover .rateBox{
+	background:rgba(29,49,202,1);
+	box-shadow: 0 0 0 18px rgba(29,49,202,0.55);
+	}
+.latest_deals li:nth-child(7n):hover .rateBox{
+	background:rgba(234,75,75,1);
+	box-shadow: 0 0 0 18px rgba(234,75,75,0.55);
+	}
+.latest_deals li:nth-child(11n):hover .rateBox{
+	background:rgba(234,75,75,1);
+	box-shadow: 0 0 0 18px rgba(234,75,75,0.55);
+	}
+.latest_deals li:nth-child(13n):hover .rateBox{
+	background:rgba(240,0,255,1);
+	box-shadow: 0 0 0 18px rgba(240,0,255,0.55);
+	}
+.latest_deals li:nth-child(17n):hover .rateBox{
+	background:rgba(234,75,75,1);
+	box-shadow: 0 0 0 18px rgba(234,75,75,0.55);
+	}
+
+
+	
+.rateBox h5{
+    color: #fff;
+    font-family: Overlock;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 0 3px;
+    text-align: left;
+	}
+.rateBox h5 span {
+    display: block;
+    font-size: 40px;
+    font-weight: 800;
+	}
+.currencySign {
+    display: inline-block !important;
+    font-size: 25px !important;
+    font-weight: 500 !important;
+	}	
+.upCase {
+    display: inline-block !important;
+    font-weight: 400 !important;
+	}
+.rateBox p {
+    color: #fff;
+    display: none;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 19px;
+    max-height: 44px;
+    overflow: hidden;
+    text-align: left;
+	}
+.latest_deals li:hover .rateBox p{
+	display:block;
+	}	
+.moreDet{
+	background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: 0;
+    box-sizing: border-box;
+    color: #155a90;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    height: 70px;
+    margin: 0 -11px -13px 0;
+    padding: 13px 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 70px;
+	transition:all 250ms ease 0s;
+	}
+.moreDet span{
+	display: block;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+	}
+.moreDet:hover{
+	background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+	}	
+.latest_deals h4{
+	color: #4b4a4a;
+    font-family: Salsa;
+    font-size: 24px;
+    font-weight: 600;
+    overflow: hidden;
+    padding:9px 15px 22px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	}
+.dealDet{
+	background: rgba(0, 0, 0, 0) url("../images/resort_bar2.png") no-repeat scroll 0 bottom;
+    padding: 0 15px 12px;
+	}
+.dealDet:after{
+	display:block;
+	clear:both;
+	content:'';
+	}	
+.dealDet p{
+	color: #696969;
+    float: left;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 14px 0 0;
+    text-decoration: underline;
+    vertical-align: bottom;
+	}
+.dealDet p span{
+	color: #e95858;
+    font-size: 16px;
+	}
+.dealDet p a{
+	color: #696969;
+	}	
+.schlTourBtn{
+	background: rgba(0, 0, 0, 0) url("../images/resort_arrw1.png") no-repeat scroll right center;
+    border: 1px solid #b7b7b7;
+    color: #155a90;
+    display: inline-block;
+    font-family: Overlock;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 33px;
+    padding: 0 40px 0 12px;
+	float: right;
+	transition: all 250ms ease 0s;
+	}
+.schlTourBtn:hover{
+	background-color:#155a90;
+	color: #fff;
+	}	
+.moreDeals{
+	border: 1px solid #155a90;
+    color: #155a90;
+    display: table;
+    float: none;
+    font-family: Salsa;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 47px;
+    margin: 10px auto 25px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    transition: all 250ms ease 0s;
+	}
+.moreDeals:hover{
+	background:#155a90;
+	color: #fff;
+	}
+
+
+
+
+
+
+/*******************************
+	Schedule Frm_sec Section css
+***********************************/
+.scheduleFrm_sec_bn{
+	background: rgba(0, 0, 0, 0) url("../images/resort_Schedule_Tour.jpg") no-repeat scroll right 0;
+    float: left;
+    min-height: 745px;
+    width: 50%;
+	}
+.scheduleFrm_sec{
+	background: url(../images/resort_Schedule_Tour_pattern.jpg) repeat 0 0;
+	}	
+.scheduleFrm_sec::after {
+    clear: both;
+    content: "";
+    display: block;
+	}
+.scheduleFrmBox{
+	box-sizing: border-box;
+    float: right;
+    padding: 38px 74px;
+    width: 50%;
+	}	
+.scheduleFrmBox h3{
+	color:#fff;
+	text-align:left;
+	}
+.scheduleFrmBox h3 span{
+	color:#fff;
+	}
+.scheduleFrmBox li::after {
+    clear: both;
+    content: "";
+    display: block;
+	}
+.scheduleFrmBox li{
+	margin: 0 0 11px;
+	}
+.scheduleFrmBox li input[type="text"]{
+	background: transparent none repeat scroll 0 0;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 44px;
+    padding: 0 10px;
+    width: 100%;
+	}
+.scheduleFrmBox li select{
+	background: transparent none repeat scroll 0 0;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    height: 47px;
+    padding: 0 10px;
+    width: 100%;
+	}
+.scheduleFrmBox li select option {
+    background: #155a90 none repeat scroll 0 0;
+    line-height: 30px;
+    padding: 0 20px;
+	}	
+.scheduleFrmBox li textarea{
+	background: transparent none repeat scroll 0 0;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    height: 80px;
+    line-height: 21px;
+    padding: 6px 10px;
+    resize: none;
+    width: 100%;
+	}
+.scheduleFrmBox li input[type="checkbox"]{
+	border: 1px solid #fff;
+	margin:0 5px 0 0;
+	}	
+.scheduleFrmBox li input[type="submit"]{
+	background: #c84e4e url("../images/resort_arrw2.png") no-repeat scroll 79% center;
+    border: medium none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: table;
+    font-family: Salsa;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 25px 0 0;
+    padding: 0 40px 0 9px;
+    text-transform: uppercase;
+	transition:all 250ms ease 0s;
+	}
+.scheduleFrmBox li input[type="submit"]:hover{
+	background: #a82e2e url("../images/resort_arrw2.png") no-repeat scroll 79% center;
+	}	
+.scheduleFrmBox li label {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+	}	
+.date{
+	background:rgba(0, 0, 0, 0) url("../images/resort_booking_date.png") no-repeat scroll 93% center !important;
+	}	
+.col2_L{
+	float:left;
+	width:48.8%;
+	}
+.col2_R{
+	float:right;
+	width:48.8%;
+	}
+.col3{
+	float: left;
+    margin: 0 2% 0 0;
+    width: 32%;
+	}
+.col3.lastCol{
+	margin-right:0;
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+/****************************
+	footer css
+*********************************/
+.ftLinks{
+	background:#fff url(../images/resort_ftPattern.jpg) repeat center 0;
+    padding: 69px 0;
+	}
+.footerLinks li {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+	}
+.footerLinks h4{
+	color: #555555;
+    font-family: Overlock;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0 0 19px;
+    text-transform: uppercase;
+	}
+.ftAboutBox p {
+    color: #646464;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+	}
+.ftAboutBox a {
+    color: #11588d;
+    font-size: 16px;
+    font-weight: 700;
+	}
+.ftAboutBox a:hover {
+    color: #646464;
+	}
+.ftAboutBox {
+    box-sizing: border-box;
+    padding-right: 8%;
+    width: 45%;
+	}	
+.ft_socials {
+    padding: 20px 0 0px;
+	clear: both;
+    margin: 23px 0 0;
+	}
+.ft_socials li{
+	display: inline-block;
+    float: left;
+    vertical-align: top;
+	}
+.ft_socials li a{
+	display: block;
+    height: 46px;
+    opacity: 1;
+    width: 46px;
+    transition: all 250ms ease 0s;
+	}
+.ft_socials li a:hover{
+	opacity: 0.6;
+	}		
+.facebook {
+    background: rgba(0, 0, 0, 0) url("../images/resort_facebook.png") no-repeat scroll center center;
+	}
+.twitter {
+    background: rgba(0, 0, 0, 0) url("../images/resort_twitter.png") no-repeat scroll center center;
+	}
+.googleplus {
+    background: rgba(0, 0, 0, 0) url("../images/resort_googlePlus.png") no-repeat scroll center center;
+	}
+.instagram {
+    background: rgba(0, 0, 0, 0) url("../images/resort_instagram.png") no-repeat scroll center center;
+	}
+.youtube{
+    background: rgba(0, 0, 0, 0) url("../images/resort_youtube.png") no-repeat scroll center center;
+	}
+
+
+.ftQCKLinks{
+	width: 32%;
+	}
+.ftQCKLinks li{
+	box-sizing: border-box;
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 0 0px 10px 0;
+    width: 100%;
+	}
+.ftQCKLinks li a{
+	color: #646464;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+	}
+.ftQCKLinks li a:hover{
+	color:#11588d;
+	}
+	
+
+.ftConatctBox{
+	box-sizing: border-box;
+    float: right !important;
+    width: 20%;
+	}
+.ftConatctBox span{
+	color: #646464;
+    display: block;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 0 0 15px 30px;
+	}
+.ftLoc{
+	background: rgba(0, 0, 0, 0) url("../images/resort_loc.png") no-repeat scroll 0 5px;
+	}
+.ftPhone{
+	background: rgba(0, 0, 0, 0) url("../images/resort_call.png") no-repeat scroll 0 7px;
+	}
+.ftMail{
+	background: rgba(0, 0, 0, 0) url("../images/resort_mail.png") no-repeat scroll 0 7px;
+	}
+.ftMail a, .ftPhone a{
+    color: #646464;
+	}
+
+	
+	
+	
+
+.copyright{
+	background: #313131 url("../images/resort_bar1.png") repeat-x scroll center 0;
+    padding: 23px 0;
+    text-align: center;
+	}
+.copyright p{
+	color: #c0c0c0;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0;
+	}
+
+
+
+
+
+
+
+/******************************************************
+			DEALS page css start
+********************************************************/
+.innerPgBn{
+	overflow:hidden;
+	}
+.innerPgBn img{
+	width:2000px;
+	position:relative;
+	left:50%;
+	margin:0 0 0 -1000px;
+	height:auto;
+	top:0;
+	}
+.loadMoreDeals{
+	background: #f4f4f4 none repeat scroll 0 0;
+    color: #155a90;
+    display: block;
+    float: none;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 90px;
+    margin: 10px auto 25px;
+    padding: 0;
+    text-transform: uppercase;
+    transition: all 250ms ease 0s;
+	cursor:pointer;
+	}
+.loadMoreDeals span{
+	display:table;
+	margin:0 auto;
+	background:url(../images/loader.gif) no-repeat 0 center;
+	background-size:30px auto;
+	padding:0 0 0 50px;
+	}
+.loadMoreDeals:hover{
+	background: #dcdcdc none repeat scroll 0 0;
+	}
+
+
+/******************************************************
+			Schedule page css start
+********************************************************/
+.schdlPg {
+    padding: 48px 0;
+	}
+.schdlPg .scheduleFrm_sec{
+	background:none;
+	}
+.schdlPg .scheduleFrmBox {
+    box-sizing: border-box;
+    float: none;
+    padding: 38px 74px;
+    width: auto;
+	}
+.schdlPg p{
+	color: #5f5f5f;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+	}
+.schdlPg .scheduleFrmBox li input[type="text"]{
+	border: 1px solid #e5e5e5;
+    color: #000;
+    font-weight: 400;
+	}
+.schdlPg .scheduleFrmBox li textarea{
+	border: 1px solid #e5e5e5;
+    color: #000;
+    font-weight: 400;
+    height: 115px;
+	}	
+.schdlPg .scheduleFrmBox li select {
+	border: 1px solid #e5e5e5;
+    color: #606060;
+    font-weight: 400;
+	}
+.schdlPg .scheduleFrmBox li label{
+	color: #5f5f5f;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+	}
+.schdlPg .scheduleFrmBox li input[type="submit"] {
+    background-position: 63% center;
+    margin: 40px auto 0;
+    padding: 0 90px 0 31px;
+	}	
+.schdlPg .scheduleFrmBox li input[type="submit"]:hover {
+    background-position: 80% center;
+	}
+.schdlPg .scheduleFrmBox li .date {
+    background: rgba(0, 0, 0, 0) url("../images/resort_booking_date2.png") no-repeat scroll 93% center !important;
+	}
+.schdlPg .scheduleFrmBox li {
+    margin: 0 0 22px;
+	}
+.schdlPg .scheduleFrmBox li:last-child{
+    margin-bottom:0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************
+			Terms and Conditions page css start
+********************************************************/
+.innerPgCnt{}
+.innerPgSec{}
+.innerPgSec h4{
+	color: #155a90;
+    font-family: Overlock;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 9px 15px 22px;
+	}
+.innerPgSec p{
+	color: #5f5f5f;
+	font-size: 16px;
+	}
+.innerPgSec ul{}
+.innerPgSec li{
+	color: #606060;
+    font-family: Overlock;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 0 20px;
+	background: url(../images/resort_check_icon.png) no-repeat 0 0;
+	}
+
+
+
+
+
+
+
+
+/***********************************************
+	Resort Details page css start
+*****************************************************/
+.pgTitleBar:after{
+	content:'';
+	clear:both;
+	display:block;
+	}
+.pgTitleBar{
+	position:relative;
+	}	
+.pgTitleBar h2{
+	color: #155a90;
+    font-family: Salsa;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0;
+    float: left;
+    line-height: 80px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 60%;
+	}
+.back2Deal{
+	background: rgba(0, 0, 0, 0) url("../images/resort_backBtn.png") no-repeat scroll 0 0;
+    box-sizing: border-box;
+    color: #085795;
+    display: inline-block;
+    font-family: Overlock;
+    font-size: 23px;
+    font-weight: 600;
+    height: 80px;
+    padding: 26px 93px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+	}
+.back2Deal:hover{
+	color: #4897d5;
+	}	
+.resortDetBn .cameraContent{
+    bottom: auto;
+    top: 50px !important;
+	}
+.resortDet .rateBox {
+    background: rgba(223, 89, 37, 0.85) none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 0 15px rgba(223, 89, 37, 0.55);
+    height: 300px;
+    margin: -75px 0 0;
+    padding: 72px 32px;
+    width: 300px;
+	}
+.resortDet .rateBox h5 {
+    font-size: 33px;
+    font-weight: 500;
+    text-align: center;
+	}
+.resortDet .rateBox h5 span {
+    font-size: 85px;
+    font-weight: 800;
+	}
+.resortDet .currencySign {
+    font-size: 52px !important;
+    font-weight: 800 !important;
+	}
+.resortDet .upCase {
+    font-weight: 600 !important;
+	}
+
+
+.dealDepPg{
+	 padding: 56px 0;
+	 }
+.dealDepPg p{
+	color: #6c6c6c;
+    font-weight: 400;
+    text-align: center;
+	}
+.desti_sec{
+	padding: 30px 0;
+	}	
+.desti_sec h3{
+	margin-bottom: 22px;
+	}	
+.destiDep{
+	border-right: 1px solid #e4e4e4;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 4%;
+    padding-right: 5%;
+    width: 50%;
+	}
+.destiDep p{
+	color: #6c6c6c;
+    font-weight: 400;
+    text-align: left;
+	}
+.offerBox{
+	box-sizing: border-box;
+    float: right;
+    width: 46%;
+	}
+.desti_sec:after{
+	content:'';
+	display:block;
+	clear:both;
+	}	
+.offerBox h4{
+	color: #155a90;
+    font-family: Salsa;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0 0 25px;
+	}
+.offerBox p {
+    text-align: left;
+	}	
+.offerBox p strong{}
+.offerBox ul{}
+.offerBox li{
+	background: rgba(0, 0, 0, 0) url("../images/resort_loc2.png") no-repeat scroll 0 6px;
+    margin: 0 0 30px;
+    padding: 0 0 0 33px;
+	}
+.offerBox li h5{
+	color: #155a90;
+    font-family: Overlock;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 0 9px;
+	}
+.offerBox li p{
+	 padding: 0 0 3px;
+	 }
+.offerBox li a{
+	color: #155a90;
+    font-family: Overlock;
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: underline;
+	}
+.offerBox color{
+	color: #e95858;
+	}	
+	
+.exploreResort{
+	padding:50px 0;
+	background: url(../images/resort_pattern.jpg) repeat 0 0;
+	}
+.exploreResort h5{
+	color: #155a90;
+    font-family: Salsa;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 0 0 39px;
+	}
+.exploreResort li{
+	background: rgba(0, 0, 0, 0) url("../images/resort_check_icon.png") no-repeat scroll 0 3px;
+    box-sizing: border-box;
+    color: #6c6c6c;
+    display: inline-block;
+    float: left;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 6% 28px 0;
+    padding: 0 0 0 44px;
+    width: 47%;
+	}
+.exploreResort li:nth-child(2n) {
+    margin-right: 0;
+	}
+
+
+
+/***********************************************
+	Terms and Conditions page css start
+*****************************************************/
+.pgSec{
+	padding: 0 0 20px;
+	}
+.pgSec h4{
+	color: #155a90;
+    font-family: Overlock;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 0 21px;
+    text-align: left;
+	}
+.pgSec p{
+	color: #5f5f5f;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+	text-align:left;
+	}
+.pgSec ul{}
+.pgSec li{
+	background: rgba(0, 0, 0, 0) url("../images/resort_check_icon.png") no-repeat scroll 0 2px;
+    box-sizing: border-box;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0 6% 23px 0;
+    padding: 0 0 0 44px;
+	}
+.pgSec li strong{
+	color: #303030;
+	}
+.pgSec p small{
+	font-size:16px;
+	}
+
+
+
+
+
+
+
+/*****************************
+	Contact Us page css start
+********************************/
+.schdlPg .scheduleFrmBox li select option {
+    background: #fff none repeat scroll 0 0;
+	}
+.schdlPg .contactFrmBox li input[type="submit"] {
+    background-position: 73% center;
+	}
+.contactDet{
+	padding: 40px 0 0;
+    text-align: center;
+	}
+.contactDet h4{
+	color: #155a90;
+    font-family: Overlock;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 19px;
+    text-transform: uppercase;
+	}
+.contactDet h5{
+	background: rgba(0, 0, 0, 0) url("../images/resort_call.png") no-repeat scroll 0 7px / 14px auto;
+    color: #555555;
+    display: table;
+    font-family: Overlock;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 0 0 19px 22px;
+	}
+.contactDet > ul {
+    display: table;
+    margin: 0 auto;
+	}	
+.contactDet li{
+	background: rgba(0, 0, 0, 0) url("../images/resort_check_icon.png") no-repeat scroll 0 1px;
+    color: #646464;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 90px 0 0;
+    padding: 3px 0 10px 32px;
+	}
+
+
+
+
+
+
+
+/**************************************
+	Preview Locations page css start
+*****************************************/
+.prevLoc li .moreDet{
+	 background: rgba(0, 0, 0, 0) url("../images/resort_locMore.png") no-repeat scroll center 0;
+    border-radius: 50% 50% 0;
+    color: #fff;
+    font-family: Salsa;
+    font-size: 20px;
+    font-weight: 100;
+    height: 100px;
+    left: 50%;
+    margin: -50px 0 0 -55px;
+    opacity: 0;
+    padding: 75px 0 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    transition: all 250ms ease 0s;
+    width: 110px;
+    z-index: 99;
+	}
+.prevLoc li:hover .moreDet{
+	opacity:1;
+	}	
+.prevLoc li {
+    box-shadow: none;
+	}
+/*		
+.prevLoc li:nth-child(2n) .moreDet{
+	background: rgba(110, 198, 25, 0.8) none repeat scroll 0 0;
+	}
+.prevLoc li:nth-child(3n) .moreDet{
+	background: rgba(240, 0, 255, 0.8) none repeat scroll 0 0;
+	}	*/
+.prevLoc li:hover .moreDet {
+    /*height: 120px;
+    padding: 26px 0;
+    width: 120px;*/
+	}
+.prevLoc .dealDet p{
+	text-decoration:none;
+    font-size: 17px;
+	padding:0;
+	color:#5c5c5c;
+	}
+.prevLoc .schlTourBtn {
+    float: none;
+    margin: 17px auto;
+	}
+.prevLoc .dealThumbnailBox{
+	overflow:hidden;
+	}	
+.prevLoc .dealThumb a{
+	display:block;
+	}
+.prevLoc .dealThumb::after{
+	display:none;
+	}	
+.prevLoc .dealThumb a::after {
+    background: rgba(21,90,144, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 250ms ease 0s;
+    width: 100%;
+	}
+.prevLoc li:hover .dealThumb a::after {
+	 opacity: 1;
+	 }
+.prevLoc li h4{
+	color: #155a90;
+    font-size: 22px;
+    line-height: 31px;
+    overflow: unset;
+    padding: 22px 0;
+    text-align: center;
+    text-overflow: initial;
+    white-space: normal;
+	}
+.prevLoc .dealDet {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	}
+
+.agentDetails{
+	padding:30px;
+	display:none;
+	}
+.agentDet{
+	border: 1px solid #dfdfdf;
+    margin: 44px 0 0;
+    padding: 10px;
+	}	
+.agentDetails h4 {
+     color: #4b4a4a;
+    font-family: Salsa;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0 0 12px;
+	}
+.agentDetails p{
+	color: #6c6c6c;
+    font-weight: 400;
+    margin: 0 0 20px;
+    padding: 0;
+	}	
+.agentDetails .agentLogo{
+	float: left;
+    padding: 0 20px 20px 0;
+    width: 300px;
+	}
+.agentDetails .agentLogo img{
+	height: auto;
+    padding: 27px 0 0;
+    width: 100%;
+	}
+.agentDetails h6{
+	color: #155a90;
+    font-family: Salsa;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 15px 0 19px;
+	}
+.agentDetails span{
+	color: #6c6c6c;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 12px;
+    padding: 0 0 0 27px;
+    text-align: left;
+	}
+.agencyLoc{
+	background: rgba(0, 0, 0, 0) url("../images/resort_loc.png") no-repeat scroll 0 1px;
+	}
+.agencyCall{
+	background: rgba(0, 0, 0, 0) url("../images/resort_call.png") no-repeat scroll 0 5px;
+	}
+.agencyMail{
+	background: rgba(0, 0, 0, 0) url("../images/resort_mail.png") no-repeat scroll 0 5px;
+	}
+.fancybox-inner {
+    background: #fff none repeat scroll 0 0;
+	}
+
+
+
+
+
+
+
+/*********************************
+	About Us page css start
+*********************************/
+.aboutPg{
+	text-align:center;
+	padding:50px 0;
+	}
+.aboutPg p{
+	color: #6c6c6c;
+    font-weight: 400;
+    text-align: center;
+	}	
+.aboutPg .pgSec{
+	padding:0 0 26px;
+	}
+.aboutPg .pgSec h4{
+	color: #353535;
+    font-family: Overlock;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0 0 22px;
+    text-align: center;
+	}
+.aboutPg .pgSec p{
+	color: #6c6c6c;
+    font-weight: 400;
+    text-align: center;
+	}
+
+
+
+
+
+.navCall{
+	background:rgba(0, 0, 0, 0) url("../images/resort_call.png") no-repeat scroll 11px 12px !important;
+	}
+.navmail{
+	background: url(../images/resort_mail.png) no-repeat 11px 14px !important;
+	}
+
+
+
+/*****************
+ banner caption box ********/
+ 
+.bnCapBox{
+	background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    box-sizing: border-box;
+    float: right;
+    margin: 0 70px 70px;
+    padding: 11px 30px;
+    width: 376px;
+	}
+.bnCapBox h1{
+	color: #3f3f3f;
+    font-family: Overlock;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0;
+	}
+.bnCapBox p{
+	color: #7e7e7e;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 0 6px;
+	}
+.bncapThumbBox:after{
+	display:block;
+	content:'';
+	clear:both;
+	}	
+.bncapThumbBox h5 {
+    color: #345469;
+    font-family: Overlock;
+    font-size: 15px;
+    font-weight: 600;
+    padding:7px 0 3px;
+    text-align: left;
+    text-transform: uppercase;
+	}
+.bncapThumbBox h5 span {
+    color: #313131;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+	text-transform: none;
+	}
+.bncapThumbBox h5 span span{
+	color:#e66f40;
+	}
+.bncapThumbBox h5 span strong{
+	font-size: 40px;
+    font-weight: 800;
+	color:#e66f40;
+	}	
+.bncapThumbBox .currencySign {
+    display: inline-block !important;
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    vertical-align: top;
+    padding: 6px 0 0 7px;
+	}
+.bncapThumbBox .upCase {
+    display: inline-block !important;
+    font-weight: 500 !important;
+    color: #313131;
+    font-size: 40px;
+	}
+.bnCapBox .dealDet p {
+    color: #696969;
+    float: left;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 7px;
+    text-decoration: underline;
+    vertical-align: bottom;
+	}
+.bnCapBox .dealDet p:hover{
+	text-decoration: none;
+	}	
+.bnCapBox .dealDet p span {
+    color: #e95858;
+    font-size: 16px;
+	}
+.bnCapBox .dealDet p a {
+    color: #696969;
+	}
+.bnCapThum {
+    border: 3px solid #e66f40;
+    border-radius: 50%;
+    float: left;
+    height: 88px;
+    margin: 0 30px 0 0;
+    overflow: hidden;
+    width: 88px;
+	}
+.bnCapThum > img {
+    height: auto;
+    width: 100%;
+	}
+.bnCapBox .schlTourBtn{
+	background: rgba(0, 0, 0, 0) url("../images/resort_Btn.png") no-repeat scroll 0 0;
+    color: #fff;
+    font-family: Salsa;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 43px;
+    text-align: center;
+    width: 150px;
+    display: block;
+    float: right;
+    text-transform: uppercase;
+	}
+.bnCapBox .dealDet {
+    background:none;
+	padding:0;
+	}
+.captionBox.noBg{
+	background:none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
